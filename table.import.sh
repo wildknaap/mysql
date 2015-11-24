@@ -18,7 +18,7 @@ for i in $LISTFILES
 	echo $TABLE
 	echo "---"
 	
-	#/bin/gunzip < $i | /usr/bin/mysql --defaults-extra-file=/etc/mysql/debian.cnf $DATABASE 
+	/bin/gunzip < $i | /usr/bin/mysql --defaults-extra-file=/etc/mysql/debian.cnf $DATABASE 
 
 done
 
