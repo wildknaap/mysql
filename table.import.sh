@@ -2,7 +2,7 @@
 #
 #
 
-BASE="/backup/mysql/"
+BASE="/path/"
 LISTFILES=`find $BASE -type f -name *.sql.gz`
 EXCLUDEDIR="mysql"
 
